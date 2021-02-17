@@ -37,8 +37,7 @@ buildDOM: function(result) {
     $("#apodDate").text("Date: " + result.date);
     $("#apodDesc").text(result.explanation);
   },
-  
-  
+   
   //Executes an AJAX call to an API.
   getRequest: function() {
     let _this = this;
