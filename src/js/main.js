@@ -38,6 +38,7 @@ buildDOM: function(result) {
     $("#apodDesc").text(result.explanation);
   },
   
+  
   //Executes an AJAX call to an API.
   getRequest: function() {
     let _this = this;
